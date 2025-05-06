@@ -29,6 +29,21 @@ h1{
 	color: white;	
 }
 
+img{
+	width: 15rem;
+	height: 25rem;
+	object-fit: cover;
+}
+
+p {
+	font-size:  2rem;
+}
+
+button {
+	margin: 0.3rem
+	padding: 0.3rem;
+}
+
 ul {
 	list-style-type: none;
 	display:flex;
@@ -39,18 +54,4 @@ li {
 	display:flex;
 	flex-flow: column;
 	align-items: center; 
-}
-
-img{
-	width: 15rem;
-	height: 25rem;
-	object-fit: cover;
-}
-
-h3 {
-	font-size:  2rem;
-}
-
-button {
-	padding: 0.5rem;
 }
