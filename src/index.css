@@ -8,6 +8,10 @@ html {
 	font-size: 62.5%;
 }
 
+body{
+	height: 200vh;
+}
+
 header{ 
 	height: 100vh; 
 	background-image:  url('./assets/athens.jpeg');
@@ -23,10 +27,6 @@ h1{
 	left: 20%; 
 	font-size: 8rem;
 	color: white;	
-}
-
-main{
-	height: 100vh;
 }
 
 ul {
