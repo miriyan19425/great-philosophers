@@ -1,65 +1,13 @@
 * {
 	margin: 0;
 	padding: 0;
-   	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
 	font-size: 62.5%;
 }
 
-body{
+#root{
 	height: 200vh;
-}
-
-header{ 
-	height: 100vh; 
-	background-image:  url('./assets/athens.jpeg');
-	background-size: cover;
- 	background-position: center;
-	filter: brightness(60%);
-	position: relative;
-}
-
-h1{
-	position: absolute;
-    	top: 50%;
-	left: 20%; 
-	font-size: 8rem;
-	color: white;	
-}
-
-img{
-	width: 15rem;
-	height: 25rem;
-	object-fit: cover;
-}
-
-p {
-	font-size:  2rem;
-}
-
-button {
-	margin: 0.3rem
-	padding: 0.3rem;
-}
-
-ul {
-	list-style-type: none;
-	display:flex;
-	justify-content: space-around;
-}
-
-li {
-	display:flex;
-	flex-flow: column;
-	align-items: center; 
-}
-
-section {
-	padding: 2rem;
-	margin: 2rem;
-	color: white;
-	background-color: grey;
-	border-radius: 10px;
 }
