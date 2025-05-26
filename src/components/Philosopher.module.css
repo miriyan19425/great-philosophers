@@ -1,0 +1,14 @@
+.pic{
+	width: 15rem;
+	height: 25rem;
+	object-fit: cover;
+}
+
+.name {
+	font-size: 2rem;
+}
+
+.more-button {
+	margin: 0.3rem;
+	padding: 0.3rem;
+}
