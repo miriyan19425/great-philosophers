@@ -1,12 +1,14 @@
+import styles from './PhilosopherDetails.module.css';
+
 function PhilosopherDetails({selectedPhilosopher}){
 	return(
-		<section>
-			<p>{selectedPhilosopher.name}</p>
-			<p>Born: {selectedPhilosopher.born}</p>
-			<p>Died: {selectedPhilosopher.died}</p>
-			<p>Major field of contribution: {selectedPhilosopher.majorField}</p>
-			<p>Fundamental Work: {selectedPhilosopher.fundamentalWork}</p>
-			<p>Famous Quote: {selectedPhilosopher.famousQuote}</p>   
+		<section className={styles.details}>
+			<p className={styles.detail}>{selectedPhilosopher.name}</p>
+			<p className={styles.detail}>Born: {selectedPhilosopher.born}</p>
+			<p className={styles.detail}>Died: {selectedPhilosopher.died}</p>
+			<p className={styles.detail}>Major field of contribution: {selectedPhilosopher.majorField}</p>
+			<p className={styles.detail}>Fundamental Work: {selectedPhilosopher.fundamentalWork}</p>
+			<p className={styles.detail}>Famous Quote: {selectedPhilosopher.famousQuote}</p>   
 		</section>
 	);
 }
